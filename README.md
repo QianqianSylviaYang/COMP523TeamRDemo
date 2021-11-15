@@ -1,10 +1,9 @@
 # Guide to Using Team R Demo #
 ## Set up Firebase Project ##
-(This is only if you want to create a new environment. You do not have to follow this part if you want to use our demo files.)
 1. Create Firebase Project <br>
     Click on Add project in Firebase Console and follow the instructions <br>
     ![alt text](./screenshots/createproject.PNG)
-2. Local Set Up 
+2. Local Set Up (This is only if you want to create a new project environment. You do not have to follow this part if you want to use our demo files.)
     To use Firebase Firestore and Cloud Functions,
     Run the following lines in your terminal.
     ```commandline
