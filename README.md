@@ -3,7 +3,7 @@
 1. Create Firebase Project <br>
     Click on Add project in Firebase Console and follow the instructions <br>
     ![alt text](./screenshots/createproject.PNG)
-2. Local Set Up (This is only if you want to create a new project environment. You do not have to follow this part if you want to use our demo files.)
+2. Local Set Up (This is only if you want to create a new project environment. You do not have to follow this part if you want to use our demo files.) <br>
     To use Firebase Firestore and Cloud Functions,
     Run the following lines in your terminal.
     ```commandline
