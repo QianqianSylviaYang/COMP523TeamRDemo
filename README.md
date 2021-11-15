@@ -25,13 +25,13 @@
 
 ## Play around with Demo ##
 Un-comment out the part the function that you want to test with
-- Local Testing
+- Local Testing <br>
     Run the following code with your terminal
     ```commandline
     firebase emulators:start
     ```
     You should be able to see a url generated in the terminal. Combine that url and the part of url that you set and test it in Postman.
-- Cloud Function
+- Cloud Function <br>
     Run the following code with your terminal
     ```commandline
     firebase deploy --only functions
