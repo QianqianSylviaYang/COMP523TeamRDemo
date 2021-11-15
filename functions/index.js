@@ -11,19 +11,19 @@ admin.initializeApp({
 const db = admin.firestore();
 
 //POST
-app.post('/Testing', (req, res) => {
-    (async () => {
-        try {
-            const document = db.collection('Testing');
-            let doc = await document.add(req.body);
-            let docid = doc.id;
-            return res.status(200).send({ id: docid, ...req.body });
-        } catch (error) {
-            console.log(error);
-            return res.status(500).send(error);
-        }
-    })();
-});
+// app.post('/Testing', (req, res) => {
+//     (async () => {
+//         try {
+//             const document = db.collection('Testing');
+//             let doc = await document.add(req.body);
+//             let docid = doc.id;
+//             return res.status(200).send({ id: docid, ...req.body });
+//         } catch (error) {
+//             console.log(error);
+//             return res.status(500).send(error);
+//         }
+//     })();
+// });
 // //GET ALL
 // app.get('/Testing', (req, res) => {
 //     (async () => {
